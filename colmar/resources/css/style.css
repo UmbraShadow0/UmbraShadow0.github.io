@@ -1,19 +1,25 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: grey;
+    color: black;
   }
 
-.Acad {
-    color: rgb(128, 128, 128, 0.9);
-    font-size: 2rem;
+header .col {
+    color: black;
+    opacity: 0.7;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
-.col {
-    color: rgb(128, 128, 128, 0.2);
-    font-size: 2rem;
+header  .Acad {
+    color: black;
+    opacity: 0.3;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
-a{
+a:-webkit-any-link {
+    color:rgb(0, 0, 0, 0.7);
+    cursor: pointer;
     text-decoration: none;
 }
 
@@ -26,21 +32,68 @@ header {
 header .content {
     display: flex;
     align-items: center;
+    height: 4rem;
     }
 
-header .icon {
-    height: 2rem; 
+header .icon { 
     padding-left: 1.5rem;
+
+}
+
+header .logo {
+    flex:1;
+    height: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 header nav ul {
     display: flex;
-    justify-content: right;
+    justify-content:flex-end;
+    align-items: center;
     padding-right: 1.5rem;
 
     }
 
-    nav li {
-    padding-left: 1rem;
-    }
-    
+nav li {
+padding-left: 1rem;
+}
+
+.first-section{
+    background-color: rgb(0, 0, 0, 0.2);
+    display:flex;
+    align-items: center;
+}
+
+.first-section .img{
+    width: 60%;
+    padding: 2rem 1.5rem;
+}
+
+.first-section .content{
+    color:rgb(0, 0, 0, 0.6);
+    width: 22rem;
+}
+
+.first-section h1{
+    font-size: 2.5rem;
+}
+
+.first-section h3{
+    display: flex;
+    font-size: 1.5rem;
+    padding: 1.0rem 0;
+}
+
+.button{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    border-radius: 4px;
+    background-color: #4a4a4a;
+    color: white;
+    font-size: 1.4rem;
+    padding: 0.5rem;
+    font-weight: 200;
+        
+}

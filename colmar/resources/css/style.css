@@ -32,10 +32,6 @@ header {
         display: flex;
         justify-content: right;
         padding-right: 1.5rem;
-        pointer-events: none;
-        cursor: default;
-        text-decoration: none;
-        color: black;
       }
     
       nav li {

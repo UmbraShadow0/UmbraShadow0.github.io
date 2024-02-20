@@ -1,0 +1,115 @@
+body{
+    background-color: #FFD74F;
+    color: #00305E;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+/* To create a bar at the top to locate the page */
+.navbar{
+    background-color: #FFD74F;
+    position: fixed;
+    top: 0;
+    width: 98.95%;
+}
+
+/* To be more specific */
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #00305E;
+}
+
+.banner{
+    background-color: #A6250D;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+#fight-img{
+    height: 120px;
+    width: 220px;
+    filter: drop-shadow(5px 5px 5px #00305E);
+}
+
+#welcome{
+    color: #A6250D;
+    font-size: 100px;
+}
+
+/* It was created before being used 
+class reasuble, id not so much*/
+.bold{
+    font-weight: 900;
+}
+
+/* To have the information about the anchor */
+a.start{
+    color: #A6250D;
+    font-weight: 900;
+}
+
+#champions ul{
+    /* Remove the points in the list */
+    list-style: none;
+}
+
+.rooster {
+    background-image: url(../Images/rooster.jpeg) ;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.colonel {
+    background-image: url(../Images/colonel.jpg) ;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.hawk {
+    background-image: url(../Images/hawk.jpg) ;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.thor {
+    background-image: url(../Images/thor.jpeg) ;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.chicken {
+    background-image: url(../Images/chickenlittle.png) ;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}

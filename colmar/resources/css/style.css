@@ -4,8 +4,12 @@ html {
     color: grey;
   }
 
+#Acad {
+    color: rgb(128, 128, 128, 0.9);
+    font-size: 2rem;
+}
 #col {
-    color: gray;
+    color: rgb(128, 128, 128, 0.2);
     font-size: 2rem;
 }
 

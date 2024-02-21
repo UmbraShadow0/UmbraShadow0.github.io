@@ -23,6 +23,12 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+.second-section a:-webkit-any-link {
+    color:skyblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     height: 4rem;
@@ -72,7 +78,7 @@ padding-left: 1rem;
 
 .first-section .content{
     color:rgb(0, 0, 0, 0.6);
-    width: 22rem;
+    width: 24rem;
 }
 
 .first-section h1{
@@ -80,20 +86,229 @@ padding-left: 1rem;
 }
 
 .first-section h3{
-    display: flex;
     font-size: 1.5rem;
     padding: 1.0rem 0;
 }
 
 .button{ 
     display: flex;
+    width: 18rem;
     justify-content: center;
     align-items: center;       
     border-radius: 4px;
     background-color: #4a4a4a;
     color: white;
     font-size: 1.4rem;
-    padding: 0.5rem;
+    padding: 1rem;
     font-weight: 200;
-        
 }
+
+.second-section{
+    display:flex;
+    align-items:flex-start;
+}
+
+.second-section .img{
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.second-section .content{
+    width:60%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.second-section h1{
+    font-size: 2.2rem;
+    color:rgb(0, 0, 0, 0.7);
+}
+
+.second-section h2{
+    font-size: 1.7rem;
+    color:rgb(0, 0, 0, 0.7);
+    margin:0;
+}
+
+.second-section .citation{
+    font-size: 1.2rem;
+    padding: 1.0rem 0;
+    color:rgb(0, 0, 0, 0.4);
+}
+.second-section .citation-author{
+    color:rgb(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+    padding: 1.0rem 0;
+}
+
+.second-section .lateral{
+    border-left:  0.0625rem solid #d8d8d8;
+    width:40%;
+    
+}
+.second-section .container{
+    display: flex;
+    padding: 1rem 1rem;
+    border-bottom: 0.0625rem solid #d8d8d8;
+    display: flex;
+    align-items: center;
+   
+}
+
+.container h3{
+    color:rgb(0, 0, 0, 0.55);
+    margin:0;
+    padding: 0.5rem 0rem;
+}
+
+.lateral img{
+    width:35%;
+    height: auto;
+    padding-right: 1rem;
+}
+
+.third-section{
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+.third-section h1{
+    padding-top: 2rem;
+    font-size: 2.2rem;
+    color:rgb(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.containers{
+    padding: 0rem 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.third-section .container{
+    margin: 2rem 2rem;
+    width:28.5%;
+    background-color: white;
+}
+
+.third-section img{
+    width:100%;
+    padding-bottom: 1rem;
+}
+
+.third-section h2{
+    font-size: 1.7rem;
+    color:rgb(0, 0, 0, 0.7);
+    margin:0;
+}
+
+.third-section h4{
+    font-size: 1rem;
+    color:rgb(0, 0, 0, 0.55);
+    margin:0;
+    width:70%;
+    padding-bottom: 1.5rem;
+}
+
+.third-section h3{
+    padding: 0.5rem;
+}
+
+.third-section .content{
+    padding:0 1rem;
+}
+
+.fourth-section h1{
+    padding-top: 2rem;
+    font-size: 2.2rem;
+    color:rgb(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.fourth-section .thesis{
+    display:flex;
+    align-items:flex-start;
+}
+
+.fourth-section video{
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.fourth-section .content{
+    width:60%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+.fourth-section h2{
+    font-size: 1.7rem;
+    color:rgb(0, 0, 0, 0.7);
+    margin:0;
+    padding-bottom: 0.5rem;
+}
+
+.fourth-section .citation{
+    font-size: 1.2rem;
+    margin:0;
+    color:rgb(0, 0, 0, 0.4);
+}
+
+
+.fourth-section .lateral{
+    width:40%;
+    
+}
+.fourth-section .container{
+    display: flex;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.container h3{
+    color:rgb(0, 0, 0, 0.55);
+    margin:0;
+    padding: 0.5rem 0rem;
+}
+
+.fourth-section {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid grey;  
+}
+.lateral img{
+    width:35%;
+    height: auto;
+    padding-right: 1rem;
+}
+
+
+#fisma{
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+#guest{
+    background-color: rgb(0, 0, 0, 0.2);
+}
+
+footer{
+    display: flex;
+    color:rgb(0, 0, 0, 0.55);
+}
+
+footer .footer{
+    flex:1;
+    padding: 1rem 0 1.5rem 1.5rem;
+}
+
+footer .right{
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+footer .terms{
+    padding-right: 1.5rem;
+}
+

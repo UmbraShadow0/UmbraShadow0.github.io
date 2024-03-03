@@ -1,7 +1,10 @@
+
+
+
 html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: black;
+    color: teal;
     background-color: aliceblue;
 }
 
@@ -10,6 +13,10 @@ body{
 }
 
 header{
+    position: fixed;
+    width: 100%;
+    flex:100;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +26,7 @@ header{
 }
 
 header p{
-    font-size: 2rem;
+    font-size: 2.2rem;
     border: 0.25rem solid azure;
     border-radius: 10px;
     font-weight: bold;
@@ -50,7 +57,7 @@ header a{
     padding: 0.5rem;
     border: 0.125rem double azure;
     border-radius: 0.5rem;
-    box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+    box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
 }
 
   
@@ -58,3 +65,140 @@ header a:hover {
     background-color: midnightblue;
     cursor:pointer;
   }
+
+header a:active {
+    background-color: midnightblue;
+    cursor:pointer;
+    box-shadow: 0px 0px;
+}
+
+section {
+    border: 0.25rem solid cadetblue;
+    margin: 4rem 7rem;
+    padding: 1rem 2rem;
+}
+
+.colors {
+    margin-top: 9rem;
+}
+h1 {
+    font-size: 6.5rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 3rem;
+    width: 30rem;
+    margin: 1.3rem auto;
+    margin-top: 3rem;
+    text-decoration: underline;
+    
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    text-align: center;
+}
+
+.color_section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.color_section {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.color {
+    width: 10rem;
+    height: auto;
+    margin: auto 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.color p{
+    font-style: italic;
+}
+
+#White {
+    background-color: #FFFFFF;
+    border: 0.125rem solid #FFFFFF;
+    color: black;
+}
+
+#Black {
+    background-color: #000000;
+    color: white;
+    border: 0.125rem solid #000000;
+}
+
+#Dark_green {
+    background-color: #013220;
+    color: white;
+    border: 0.125rem solid #013220;
+}
+
+#Ivory {
+    background-color: #FFFFF0;
+    border: 0.125rem solid #FFFFF0;
+    color: #013220;
+}
+
+#Yellow {
+    background-color: #FFFF00;
+    border: 0.125rem solid #FFFF00;
+    color: #013220;
+}
+
+#Bright_green {
+    background-color: #66ff00;
+    border: 0.125rem solid #66ff00;
+    color: #FF69B4;
+}
+
+#Hot_pink {
+    background-color: #FF69B4;
+    color: #66ff00;
+    border: 0.125rem solid #FF69B4;
+    
+}
+
+.fonts h2 {
+    text-align: left;
+    text-decoration: underline;
+    font-size: 5rem;
+}
+
+.font_section {
+    width: 30rem;
+    height: auto;
+    font-size: 3.75rem;
+    text-align: left;
+}
+
+#Robot {
+    font-family: "Roboto", sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#libre_Franklin{
+    font-family: "Libre Franklin", sans-serif;
+}
+#Raleway{
+    font-family: "Raleway", sans-serif;
+}
